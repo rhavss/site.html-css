@@ -1,7 +1,7 @@
 :root {
-    --bg: #fffaf6;
+    --bg: #fffbf7;
     --black: #000000;
-    --border: 0.1rem solid #b7957b;
+    --border: 0.1rem solid #d6c3b3;
     font-size: 10px
 }
 
@@ -11,8 +11,8 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
-    transition: 0.2 linear;
+    transition: 0.2s linear;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -32,6 +32,7 @@ section {
     right: 0;
     z-index: 99;
     border-bottom: var(--border);
+    background-color: #fffbf7;
 }
 
 .header section {
@@ -40,5 +41,68 @@ section {
     justify-content: space-between;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+}
 
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #475945
+}
+
+.navbar a:hover {
+    color: #af7040;
+    border-bottom: 0.1rem solid #af7040;
+    padding-bottom: 0.5rem;
+    font-size: 1.9rem
+}
+
+.icons img {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    width: 38px;
+    height: 38px;
+}
+
+.btn {
+    background: #af7040;
+    color: #fffbf7;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.home-container {
+    background: url("./img/homebg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.home-container section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 100rem;
+    margin-right: 48rem;
+}
+
+.content h3 {
+    color: #475945;
+    font-size: 6rem;
+    line-height: 7rem;
+}
+
+.content p {
+    color: #475945;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.8;
+    padding: 1rem 0;
 }

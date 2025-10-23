@@ -77,7 +77,7 @@ section {
 }
 
 .home-container {
-    background: url("./img/homebg.png");
+    background: url("./img/bg.png");
     background-position: center;
     background-size: cover;
 }
@@ -90,7 +90,7 @@ section {
 
 .content {
     max-width: 100rem;
-    margin-right: 48rem;
+    margin-right: 70rem;
 }
 
 .content h3 {

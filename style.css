@@ -1,7 +1,6 @@
 :root {
-    --bg: #fffbf7;
+    --bg: #FCAD1A;
     --black: #000000;
-    --border: 0.1rem solid #d6c3b3;
     font-size: 10px
 }
 
@@ -31,8 +30,6 @@ section {
     left: 0;
     right: 0;
     z-index: 99;
-    border-bottom: var(--border);
-    background-color: #fffbf7;
 }
 
 .header section {
@@ -46,12 +43,12 @@ section {
 .navbar a {
     margin: 0 1rem;
     font-size: 1.8rem;
-    color: #475945
+    color: #000000
 }
 
 .navbar a:hover {
-    color: #af7040;
-    border-bottom: 0.1rem solid #af7040;
+    color: #447a48;
+    border-bottom: 0.1rem solid #447a48;
     padding-bottom: 0.5rem;
     font-size: 1.9rem
 }
@@ -67,8 +64,8 @@ section {
 }
 
 .btn {
-    background: #af7040;
-    color: #fffbf7;
+    background: #447a48;
+    color: #ffffff;
     padding: 1rem 3rem;
     font-size: 1.7rem;
     cursor: pointer;
@@ -93,14 +90,8 @@ section {
     margin-right: 70rem;
 }
 
-.content h3 {
-    color: #475945;
-    font-size: 6rem;
-    line-height: 7rem;
-}
-
 .content p {
-    color: #475945;
+    color: #000000;
     font-size: 2rem;
     font-weight: 100;
     line-height: 1.8;

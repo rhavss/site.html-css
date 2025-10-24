@@ -19,7 +19,7 @@ body {
 }
 
 section {
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -52,6 +52,12 @@ section {
     padding-bottom: 0.5rem;
     font-size: 1.9rem
 }
+
+.navbar li a {
+    text-decoration: none;
+}
+
+.navbar 
 
 .icons img {
     margin: 1rem;

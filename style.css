@@ -99,14 +99,63 @@ section {
 }
 
 .content {
+    align-items: center;
     max-width: 100rem;
     margin-right: 70rem;
 }
 
 .content p {
-    color: #000000;
+    color: #ffffff;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     font-size: 2rem;
     font-weight: 100;
     line-height: 1.8;
     padding: 1rem 0;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background: #fdd106;
+    border-top: 2px solid #fdd106;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.footer section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer p {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: #00a950;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.navfooter a {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: #00a950;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.navfooter a:hover {
+    color: #ffffff;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding-bottom: 0.5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+}
+
+.navfooter twitter:hover {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
 }

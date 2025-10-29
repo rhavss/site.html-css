@@ -59,13 +59,6 @@ section {
     font-size: 2.4rem
 }
 
-.navbar a:active {
-    color: #fdd106;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-    border-bottom: #fdd106;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-}
-
 .icons img {
     margin: 1rem;
     cursor: pointer;
@@ -170,28 +163,57 @@ section {
     cursor: pointer;
 }
 
-.criação {
+.about-container {
+    padding-bottom: 6rem;
+}
+
+.about-container section {
     display: flex;
     align-items: center;
-    padding-bottom: 12rem;
 }
 
-.content-about {
-    padding-top: 11rem;
+.content-about1 {
+    padding-top: 11.5rem;
 }
 
-.content-about h2 {
+.content-about2 {
+    padding-top: 3rem;
+}
+
+.content-about1 h2 {
     font-family: "Georama", sans-serif;
     text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     color: #ffffff;
     font-size: 6rem;
     font-weight: 100;
     line-height: 1.8;
-    padding-left: 27rem;
+    padding-left: 21.5rem;
     max-width: 100rem;
 }
 
-.content-about p {
+.content-about2 h2 {
+    font-family: "Georama", sans-serif;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-size: 6rem;
+    font-weight: 100;
+    line-height: 1.8;
+    padding-left: 19rem;
+    max-width: 100rem;
+}
+
+.content-about3 h2 {
+    font-family: "Georama", sans-serif;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-size: 6rem;
+    font-weight: 100;
+    line-height: 1.8;
+    padding-left: 23rem;
+    max-width: 100rem;
+}
+
+.content-about1 p {
     color: #ffffff;
     text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     font-size: 2rem;
@@ -199,13 +221,56 @@ section {
     line-height: 1.8;
     padding-left: 6rem;
     max-width: 100rem;
+    padding-top: 3rem;
 }
 
-.image {
-    padding-top: 14rem;
+.content-about2 p {
+    color: #ffffff;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.8;
+    padding-right: 5rem;
+    max-width: 100rem;
+    padding-top: 3rem;
 }
 
-.image img {
+.content-about3 p {
+    color: #ffffff;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.8;
+    padding-left: 6rem;
+    max-width: 100rem;
+    padding-top: 3rem;
+}
+
+.image1 {
+    padding-top: 14.5rem;
+}
+
+.image2 {
+    padding-top: 6rem;
+}
+
+.image3 {
+    padding-top: 6rem;
+}
+
+.image1 img {
+    border: 10px solid #00a950;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.image2 img {
+    border: 10px solid #00a950;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.image3 img {
     border: 10px solid #00a950;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 10px;

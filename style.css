@@ -123,7 +123,7 @@ section {
     height: 42px;
 }
 
-.btn {
+.btn1 {
     font-family: "Georama", sans-serif;
     background: #00a950;
     color: #ffffff;
@@ -135,7 +135,7 @@ section {
     border-radius: 10px;
 }
 
-.btn:hover {
+.btn1:hover {
     padding: 1.02rem 3.02rem;
     font-size: 2.05rem;
     border: 2px solid #00a950;
@@ -285,6 +285,26 @@ section {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
+
+.btn2 {
+    font-family: "Georama", sans-serif;
+    background: #00a950;
+    color: #ffffff;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 80rem;
+    margin-top: 5rem;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.btn2:hover {
+    padding: 1.02rem 3.02rem;
+    font-size: 2.05rem;
+    border: 2px solid #00a950;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
 /* -------about------- */
 
 
@@ -398,5 +418,63 @@ section {
     padding-right: 20rem;
 }
 
+.imagem4 img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 122rem;
+    left: 18rem;
+}
 
+.content-muppets4 {
+    position: absolute;
+    top: 125.5rem;
+    left: 52rem;
+}
+
+.content-muppets4 h2 {
+    font-family: "Georama", sans-serif;
+    color: #ffffff;
+    font-size: 6rem;
+    padding-bottom: 1.2rem;
+}
+
+.content-muppets4 p {
+    color: #ffffff;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.5;
+    padding-right: 20rem;
+}
+
+.imagem5 img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 155.5rem;
+    left: 18rem;
+}
+
+.content-muppets5 {
+    position: absolute;
+    top: 160rem;
+    left: 52rem;
+}
+
+.content-muppets5 h2 {
+    font-family: "Georama", sans-serif;
+    color: #ffffff;
+    font-size: 6rem;
+    padding-bottom: 1.2rem;
+}
+
+.content-muppets5 p {
+    color: #ffffff;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.5;
+    padding-right: 20rem;
+}
 /* -------muppets------- */

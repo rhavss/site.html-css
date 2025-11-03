@@ -301,19 +301,19 @@ section {
     padding-bottom: 3rem;
 }
 
+.green-line {
+    background-color: #00a950;
+    padding: 8rem 18rem 6rem 200rem;
+    margin-left: 0rem;
+    border-radius: 18px;
+}
+
 .imagem1 img {
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 18.5rem;
     left: 18rem;
-}
-
-.green-line {
-    background-color: #00a950;
-    padding: 8rem 18rem 6rem 200rem;
-    margin-left: 10rem;
-    border-radius: 18px;
 }
 
 .content-muppets1 {
@@ -337,4 +337,66 @@ section {
     line-height: 1.5;
     padding-right: 20rem;
 }
+
+.imagem2 img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 53rem;
+    left: 18rem;
+}
+
+.content-muppets2 {
+    position: absolute;
+    top: 56.5rem;
+    left: 52rem;
+}
+
+.content-muppets2 h2 {
+    font-family: "Georama", sans-serif;
+    color: #ffffff;
+    font-size: 6rem;
+    padding-bottom: 1.2rem;
+}
+
+.content-muppets2 p {
+    color: #ffffff;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.5;
+    padding-right: 20rem;
+}
+
+.imagem3 img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 87.5rem;
+    left: 18rem;
+}
+
+.content-muppets3 {
+    position: absolute;
+    top: 91rem;
+    left: 52rem;
+}
+
+.content-muppets3 h2 {
+    font-family: "Georama", sans-serif;
+    color: #ffffff;
+    font-size: 6rem;
+    padding-bottom: 1.2rem;
+}
+
+.content-muppets3 p {
+    color: #ffffff;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.5;
+    padding-right: 20rem;
+}
+
+
 /* -------muppets------- */

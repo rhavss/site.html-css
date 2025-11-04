@@ -7,6 +7,10 @@
     font-size: 10px
 }
 
+::-webkit-scrollbar{
+    display: none;
+} 
+
 * {
     margin: 0;
     padding: 0;
@@ -271,7 +275,7 @@ section {
     max-width: 100rem;
 }
 
-.content-about1 p {
+.content-about1 p, .content-about3 p {
     color: #ffffff;
     text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     font-size: 2rem;
@@ -293,42 +297,15 @@ section {
     padding-top: 3rem;
 }
 
-.content-about3 p {
-    color: #ffffff;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    font-size: 2rem;
-    font-weight: 100;
-    line-height: 1.8;
-    padding-left: 6rem;
-    max-width: 100rem;
-    padding-top: 3rem;
-}
-
 .image1 {
     padding-top: 14.5rem;
 }
 
-.image2 {
+.image2, .image3 {
     padding-top: 6rem;
 }
 
-.image3 {
-    padding-top: 6rem;
-}
-
-.image1 img {
-    border: 10px solid #00a950;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-}
-
-.image2 img {
-    border: 10px solid #00a950;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-}
-
-.image3 img {
+.image1 img, .image2 img, .image3 img {
     border: 10px solid #00a950;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -380,34 +357,64 @@ section {
     border-radius: 18px;
 }
 
-.imagem1 img {
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 18.5rem;
-    left: 18rem;
-}
-
 .content-muppets1 {
     position: absolute;
     top: 22rem;
     left: 52rem;
 }
 
-.content-muppets1 h2 {
+.content-muppets2 {
+    position: absolute;
+    top: 56.5rem;
+    left: 52rem;
+}
+
+.content-muppets3 {
+    position: absolute;
+    top: 91rem;
+    left: 52rem;
+}
+
+.content-muppets4 {
+    position: absolute;
+    top: 125.5rem;
+    left: 52rem;
+}
+
+.content-muppets5 {
+    position: absolute;
+    top: 160rem;
+    left: 52rem;
+}
+
+.content-muppets6 {
+    position: absolute;
+    top: 194.5rem;
+    left: 52rem;
+}
+
+.content-muppets1 h2, .content-muppets2 h2, .content-muppets3 h2, .content-muppets4 h2, .content-muppets5 h2, .content-muppets6 h2 {
     font-family: "Georama", sans-serif;
     color: #ffffff;
     font-size: 6rem;
     padding-bottom: 1.2rem;
 }
 
-.content-muppets1 p {
+.content-muppets1 p, .content-muppets2 p, .content-muppets3 p, .content-muppets4 p, .content-muppets5 p, .content-muppets6 p {
     color: #ffffff;
     text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     font-size: 2rem;
     font-weight: 100;
     line-height: 1.5;
     padding-right: 20rem;
+}
+
+.imagem1 img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 19rem;
+    left: 18rem;
 }
 
 .imagem2 img {
@@ -418,28 +425,6 @@ section {
     left: 18rem;
 }
 
-.content-muppets2 {
-    position: absolute;
-    top: 56.5rem;
-    left: 52rem;
-}
-
-.content-muppets2 h2 {
-    font-family: "Georama", sans-serif;
-    color: #ffffff;
-    font-size: 6rem;
-    padding-bottom: 1.2rem;
-}
-
-.content-muppets2 p {
-    color: #ffffff;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    font-size: 2rem;
-    font-weight: 100;
-    line-height: 1.5;
-    padding-right: 20rem;
-}
-
 .imagem3 img {
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
@@ -448,56 +433,12 @@ section {
     left: 18rem;
 }
 
-.content-muppets3 {
-    position: absolute;
-    top: 91rem;
-    left: 52rem;
-}
-
-.content-muppets3 h2 {
-    font-family: "Georama", sans-serif;
-    color: #ffffff;
-    font-size: 6rem;
-    padding-bottom: 1.2rem;
-}
-
-.content-muppets3 p {
-    color: #ffffff;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    font-size: 2rem;
-    font-weight: 100;
-    line-height: 1.5;
-    padding-right: 20rem;
-}
-
 .imagem4 img {
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     position: absolute;
-    top: 122rem;
+    top: 121.5rem;
     left: 18rem;
-}
-
-.content-muppets4 {
-    position: absolute;
-    top: 125.5rem;
-    left: 52rem;
-}
-
-.content-muppets4 h2 {
-    font-family: "Georama", sans-serif;
-    color: #ffffff;
-    font-size: 6rem;
-    padding-bottom: 1.2rem;
-}
-
-.content-muppets4 p {
-    color: #ffffff;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    font-size: 2rem;
-    font-weight: 100;
-    line-height: 1.5;
-    padding-right: 20rem;
 }
 
 .imagem5 img {
@@ -508,25 +449,11 @@ section {
     left: 18rem;
 }
 
-.content-muppets5 {
+.imagem6 img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     position: absolute;
-    top: 160rem;
-    left: 52rem;
-}
-
-.content-muppets5 h2 {
-    font-family: "Georama", sans-serif;
-    color: #ffffff;
-    font-size: 6rem;
-    padding-bottom: 1.2rem;
-}
-
-.content-muppets5 p {
-    color: #ffffff;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    font-size: 2rem;
-    font-weight: 100;
-    line-height: 1.5;
-    padding-right: 20rem;
+    top: 189.5rem;
+    left: 18rem;
 }
 /* -------muppets------- */

@@ -130,35 +130,51 @@ section {
     padding-bottom: 1.5rem;
 }
 
-.footer p {
+.navfooter p {
     font-family: "Georama", sans-serif;
-    margin: 0 1rem;
     font-size: 1.8rem;
     color: #00a950;
     text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.navfooter a {
-    margin: 0 1rem;
-    font-size: 1.5rem;
+.rights {
     color: #00a950;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    font-size: 1.4rem;
 }
 
-.navfooter a:hover {
+.navfooter a {
+    padding: 0 1.04rem;
+    color: #00a950;
+    cursor: pointer;
+}
+
+.instagram, .youtube {
+    padding-top: 1rem;
+}
+
+.btn-end {
+    font-family: "Georama", sans-serif;
+    background: #00a950;
     color: #ffffff;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    padding-bottom: 0.5rem;
-    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    font-size: 2rem;
     cursor: pointer;
-    width: 22px;
-    height: 22px;
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
 }
 
-.navfooter twitter:hover {
-    width: 18px;
-    height: 18px;
-    cursor: pointer;
+.btn-end:hover {
+    padding: 1.02rem 3.02rem;
+    font-size: 2.05rem;
+    width: 15.3rem;
+    border: 2px solid #00a950;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 /* -------geral------- */
 
@@ -175,7 +191,7 @@ section {
     height: 42px;
 }
 
-.btn1 {
+.btn-home {
     font-family: "Georama", sans-serif;
     background: #00a950;
     color: #ffffff;
@@ -187,7 +203,7 @@ section {
     border-radius: 10px;
 }
 
-.btn1:hover {
+.btn-home:hover {
     padding: 1.02rem 3.02rem;
     font-size: 2.05rem;
     border: 2px solid #00a950;
@@ -310,150 +326,62 @@ section {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
-
-.btn2 {
-    font-family: "Georama", sans-serif;
-    background: #00a950;
-    color: #ffffff;
-    padding: 1rem 3rem;
-    font-size: 2rem;
-    cursor: pointer;
-    width: 15rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
-    display: block;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.btn2:hover {
-    padding: 1.02rem 3.02rem;
-    font-size: 2.05rem;
-    width: 15.3rem;
-    border: 2px solid #00a950;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-}
 /* -------about------- */
 
 
 
 /* -------muppets------- */
 .muppets-container {
-    padding-top: 14rem;
+    padding-top: 13rem;
     padding-bottom: 6rem;
 }
 
 .muppets-container section {
     display: flex;
     align-items: center;
-    padding-bottom: 3rem;
+    padding: 6rem 0;
 }
 
 .green-line {
+    position: absolute;
     background-color: #00a950;
-    padding: 8rem 18rem 6rem 200rem;
-    margin-left: 0rem;
-    border-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+    padding: 11rem 100rem 11rem 5rem;
+    margin-left: 13rem;
+    z-index: 0;
 }
 
-.content-muppets1 {
-    position: absolute;
-    top: 22rem;
-    left: 52rem;
+.green-line p, .green-line h2 {
+    visibility: hidden;
 }
 
-.content-muppets2 {
-    position: absolute;
-    top: 56.5rem;
-    left: 52rem;
+.content-muppets {
+    z-index: 1;
+    padding: 0 1rem 0 4rem;
 }
 
-.content-muppets3 {
-    position: absolute;
-    top: 91rem;
-    left: 52rem;
-}
-
-.content-muppets4 {
-    position: absolute;
-    top: 125.5rem;
-    left: 52rem;
-}
-
-.content-muppets5 {
-    position: absolute;
-    top: 160rem;
-    left: 52rem;
-}
-
-.content-muppets6 {
-    position: absolute;
-    top: 194.5rem;
-    left: 52rem;
-}
-
-.content-muppets1 h2, .content-muppets2 h2, .content-muppets3 h2, .content-muppets4 h2, .content-muppets5 h2, .content-muppets6 h2 {
+.content-muppets h2 {
     font-family: "Georama", sans-serif;
     color: #ffffff;
     font-size: 6rem;
     padding-bottom: 1.2rem;
 }
 
-.content-muppets1 p, .content-muppets2 p, .content-muppets3 p, .content-muppets4 p, .content-muppets5 p, .content-muppets6 p {
+.content-muppets p {
     color: #ffffff;
     text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     font-size: 2rem;
     font-weight: 100;
     line-height: 1.5;
-    padding-right: 20rem;
 }
 
-.imagem1 img {
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 19rem;
-    left: 18rem;
+.imagem {
+    z-index: 1;
 }
 
-.imagem2 img {
+.imagem img {
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 53rem;
-    left: 18rem;
-}
-
-.imagem3 img {
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 87.5rem;
-    left: 18rem;
-}
-
-.imagem4 img {
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 121.5rem;
-    left: 18rem;
-}
-
-.imagem5 img {
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 155.5rem;
-    left: 18rem;
-}
-
-.imagem6 img {
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 189.5rem;
-    left: 18rem;
 }
 /* -------muppets------- */

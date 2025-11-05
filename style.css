@@ -157,7 +157,7 @@ section {
     font-family: "Georama", sans-serif;
     background: #00a950;
     color: #ffffff;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem 0.5rem 2rem;
     font-size: 2rem;
     cursor: pointer;
     width: 15rem;
@@ -170,7 +170,7 @@ section {
 }
 
 .btn-end:hover {
-    padding: 1.02rem 3.02rem;
+    padding: 1.02rem 2.02rem 0.52rem 2.02rem;
     font-size: 2.05rem;
     width: 15.3rem;
     border: 2px solid #00a950;
@@ -195,7 +195,7 @@ section {
     font-family: "Georama", sans-serif;
     background: #00a950;
     color: #ffffff;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     font-size: 2rem;
     cursor: pointer;
     margin-top: 1rem;
@@ -204,7 +204,7 @@ section {
 }
 
 .btn-home:hover {
-    padding: 1.02rem 3.02rem;
+    padding: 1.02rem 2.02rem;
     font-size: 2.05rem;
     border: 2px solid #00a950;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);

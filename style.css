@@ -178,13 +178,19 @@ section {
 }
 
 .titule {
-    font-family: "Georama", sans-serif;
     color: #ffffff;
     padding-top: 16rem;
-    font-size: 7rem;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.titule p {
+    font-family: "Georama", sans-serif;
+    font-size: 7rem;
+    border-bottom: 5px solid #00a950;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-bottom: 5px solid #00a950;
 }
 /* -------geral------- */
 

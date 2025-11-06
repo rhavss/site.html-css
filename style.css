@@ -176,6 +176,16 @@ section {
     border: 2px solid #00a950;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
+
+.titule {
+    font-family: "Georama", sans-serif;
+    color: #ffffff;
+    padding-top: 16rem;
+    font-size: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* -------geral------- */
 
 
@@ -251,7 +261,7 @@ section {
 }
 
 .content-about1 {
-    padding-top: 11.5rem;
+    padding-top: 7rem;
 }
 
 .content-about2 {
@@ -314,7 +324,7 @@ section {
 }
 
 .image1 {
-    padding-top: 14.5rem;
+    padding-top: 10rem;
 }
 
 .image2, .image3 {

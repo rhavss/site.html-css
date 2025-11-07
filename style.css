@@ -180,6 +180,7 @@ section {
 .titule {
     color: #ffffff;
     padding-top: 16rem;
+    padding-bottom: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,7 +190,7 @@ section {
     font-family: "Georama", sans-serif;
     font-size: 7rem;
     border-bottom: 5px solid #00a950;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     border-bottom: 5px solid #00a950;
 }
 /* -------geral------- */
@@ -266,10 +267,6 @@ section {
     align-items: center;
 }
 
-.content-about1 {
-    padding-top: 7rem;
-}
-
 .content-about2 {
     padding-top: 3rem;
 }
@@ -330,7 +327,7 @@ section {
 }
 
 .image1 {
-    padding-top: 10rem;
+    padding-top: 3rem;
 }
 
 .image2, .image3 {
@@ -348,7 +345,6 @@ section {
 
 /* -------muppets------- */
 .muppets-container {
-    padding-top: 13rem;
     padding-bottom: 6rem;
 }
 

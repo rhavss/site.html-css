@@ -54,7 +54,7 @@ section {
     font-family: "Georama", sans-serif;
     margin: 0 2rem;
     font-size: 2.3rem;
-    color: #ffffff
+    color: #ffffff;
 }
 
 .navbar a:hover {
@@ -69,47 +69,13 @@ section {
     margin-top: 0.6rem;
 }
 
-.box-search {
-    width: 28rem;
-    height: 4.2rem;
+.login a {
+    font-family: "Georama", sans-serif;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    color: #00a950;
     background-color: #ffffff;
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
-
-.box-search .lupe {
-    min-width: 40;
-    height: 40;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    margin-left: 1.2rem;
-}
-
-.box-search .input {
-    position: absolute;
-    left: 50px;
-    width: 100%;
-    height: 100%;
-    line-height: 46.6px;
-}
-
-.box-search .input input {
-    font-size: 1.4rem;
-}
-
-.box-search .close {
-    min-width: 20;
-    height: 20;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    margin-right: 1rem;
 }
 
 .footer {
@@ -198,16 +164,6 @@ section {
 
 
 /* -------home------- */
-.icons img {
-    margin: 1rem;
-    cursor: pointer;
-}
-
-.icons img:hover {
-    width: 42px;
-    height: 42px;
-}
-
 .btn-home {
     font-family: "Georama", sans-serif;
     background: #00a950;
@@ -236,13 +192,13 @@ section {
 .home-container section {
     display: flex;
     align-items: center;
-    min-height: 100vh;
+    min-height: 95vh;
 }
 
 .content {
     align-items: center;
     max-width: 100rem;
-    margin-right: 70rem;
+    margin-right: 75rem;
 }
 
 .content p {

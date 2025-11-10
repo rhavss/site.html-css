@@ -71,11 +71,17 @@ section {
 
 .login a {
     font-family: "Georama", sans-serif;
-    font-size: 2rem;
+    font-size: 2.3rem;
     padding: 0.5rem 1rem;
     color: #00a950;
     background-color: #ffffff;
     border-radius: 10px;
+}
+
+.login a:hover {
+    font-size: 2.4rem;
+    color: #fdd106;
+    padding: 0.6rem 1.1rem;
 }
 
 .footer {

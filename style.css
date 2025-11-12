@@ -70,7 +70,7 @@ section {
 
 .login a {
     font-family: "Georama", sans-serif;
-    font-size: 2.3rem;
+    font-size: 2rem;
     padding: 0.5rem 1rem;
     color: #00a950;
     background-color: #ffffff;
@@ -103,12 +103,12 @@ section {
     font-family: "Georama", sans-serif;
     font-size: 1.8rem;
     color: #00a950;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.03);
 }
 
 .rights {
     color: #00a950;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     font-size: 1.4rem;
 }
 
@@ -125,6 +125,7 @@ section {
 .btn-end {
     font-family: "Georama", sans-serif;
     background: #00a950;
+    border: 1px solid #00a950;
     color: #ffffff;
     padding: 1rem 2rem;
     font-size: 2rem;
@@ -139,17 +140,14 @@ section {
 }
 
 .btn-end:hover {
-    padding: 1.02rem 2.02rem;
-    font-size: 2.05rem;
-    width: 15.3rem;
-    border: 2px solid #00a950;
+    color: #fdd106;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .titule {
     color: #ffffff;
-    padding-top: 16rem;
-    padding-bottom: 4rem;
+    padding-top: 15rem;
+    padding-bottom: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,6 +168,7 @@ section {
 .btn-home {
     font-family: "Georama", sans-serif;
     background: #00a950;
+    border: 1px solid #00a950;
     color: #ffffff;
     padding: 1rem 2rem;
     font-size: 2rem;
@@ -180,9 +179,7 @@ section {
 }
 
 .btn-home:hover {
-    padding: 1.02rem 2.02rem;
-    font-size: 2.05rem;
-    border: 2px solid #00a950;
+    color: #fdd106;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -195,7 +192,7 @@ section {
 .home-container section {
     display: flex;
     align-items: center;
-    min-height: 96vh;
+    min-height: 100vh;
 }
 
 .content {

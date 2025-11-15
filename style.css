@@ -355,8 +355,41 @@ section {
 /* -------muppets------- */
 
 /* -------reviews------- */
+.r-content {
+    display: flex;
+    margin-top: 2rem;
+}
+
 .title1-reviews {
     display: flex;
-    justify-content: center;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #d99517;
+}
+
+.content1-reviews {
+    margin: 0rem 4rem;
+    border: 2px solid #d99517;
+    border-radius: 10px;
+    padding: 2rem 2rem;
+}
+
+.content1-reviews h1 {
+    font-family: "Georama", sans-serif;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-size: 5rem;
+    margin: 0 1.5rem;
+}
+
+.content1-reviews p {
+    color: #ffffff;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-size: 1.8rem;
+}
+
+.poster img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 169, 80, 0.3);
 }
 /* -------reviews------- */
